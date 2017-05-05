@@ -1,0 +1,11 @@
+{
+  "name": "stopinstances",
+  "version": "1.0.0",
+  "description": "rackspace hackathon team 3 lambda code for stopping instances",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "gjoel@amazon.com",
+  "license": "ISC"
+}
