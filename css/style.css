@@ -1,0 +1,270 @@
+/*
+
+Bootstrap overrides
+
+*/
+
+.navbar {
+	background-color: #333;
+}
+
+.navbar-brand {
+	background-image: url(https://752f77aa107738c25d93-f083e9a6295a3f0714fa019ffdca65c3.ssl.cf1.rackcdn.com/logos/rs-logo.svg);
+	background-position: left 50%;
+	background-repeat: no-repeat;
+	background-size: 100% 79%;
+	height: 35px;
+	margin: 5px;
+	position: relative;
+	-webkit-transition-duration: .3s;
+	transition-duration: .3s;
+	width: 150px;
+}
+
+.page-header {
+	background-color: #000;
+	padding: 50px;
+}
+
+@media (max-width: 400px) {
+	
+	.page-header {
+		padding: 50px 0;
+	}
+
+}
+
+/*
+
+End Bootstrap overrides
+
+*/
+
+/*
+
+Header styles
+
+*/
+
+.imacBanner {
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    font-family: Khand, Helvetica, Arial, sans-serif;
+    background-image: url(https://752f77aa107738c25d93-f083e9a6295a3f0714fa019ffdca65c3.ssl.cf1.rackcdn.com/bananers/IMACbanners/collaboration-1.jpg);
+    background-position: right center;
+    height: 270px;
+    overflow: hidden;
+    padding: 50px 0
+}
+.imacBanner-withCta {
+    height: 340px
+}
+.imacBanner-container {
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1280px;
+    -webkit-animation: fadein 1s;
+    animation: fadein 1s;
+    padding: 0 45px
+}
+.imacBanner-container:after,
+.imacBanner-container:before {
+    content: " ";
+    display: table
+}
+.imacBanner-container:after {
+    clear: both
+}
+@media (min-width:768px) {
+    .imacBanner-container {
+        width: 770px
+    }
+}
+@media (min-width:992px) {
+    .imacBanner-container {
+        width: 990px
+    }
+}
+@media (min-width:1280px) {
+    .imacBanner-container {
+        width: 1280px
+    }
+}
+.imacBanner-headlineLarge,
+.imacBanner-headlineMedium,
+.imacBanner-headlineSmall {
+    position: relative;
+    min-height: 1px;
+    padding-left: 25px;
+    padding-right: 25px
+}
+@media (min-width:768px) {
+    .imacBanner-headlineLarge {
+        float: left;
+        width: 58.33333%
+    }
+}
+@media (min-width:768px) {
+    .imacBanner-headlineMedium {
+        float: left;
+        width: 50%
+    }
+}
+@media (min-width:768px) {
+    .imacBanner-headlineSmall {
+        float: left;
+        width: 41.66667%
+    }
+}
+.imacBanner-headline {
+    color: #fff;
+    font-family: Khand, Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    line-height: .9em;
+    margin: 0;
+    text-transform: uppercase
+    font-size: 30px;
+}
+@media (max-width: 400px) {
+    .imacBanner-headline {
+ 		font-size: 20px;
+    }
+}
+.imacBanner-textContainer {
+    border: 3px solid #fff;
+    margin: 0 auto;
+    padding: 15px;
+    position: relative
+}
+.imacBanner-textRow {
+    margin-left: -25px;
+    margin-right: -25px;
+    padding: 0 25px
+}
+@media (max-width: 400px) {
+    .imacBanner-textRow {
+ 		margin-right: 75px;
+    }
+}
+.imacBanner-textRow:after,
+.imacBanner-textRow:before {
+    content: " ";
+    display: table
+}
+.imacBanner-textRow:after {
+    clear: both
+}
+.imacBanner-buttonRow {
+    margin-left: -25px;
+    margin-right: -25px;
+    padding-top: 20px
+}
+.imacBanner-buttonRow:after,
+.imacBanner-buttonRow:before {
+    content: " ";
+    display: table
+}
+.imacBanner-buttonRow:after {
+    clear: both
+}
+.imacBanner-button {
+    position: relative;
+    min-height: 1px;
+    border: 0;
+    border-radius: 0;
+    box-shadow: none;
+    cursor: pointer;
+    display: inline-block;
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 1.5rem;
+    line-height: 27px;
+    margin: 0 auto 0 20px;
+    text-align: center;
+    text-decoration: none;
+    background-color: #c40022;
+    color: #fff;
+    font-weight: 600;
+    padding: 8px 20px
+}
+@media (min-width:768px) {
+    .imacBanner-button {
+        float: left;
+        width: 25%
+    }
+}
+.imacBanner-button:hover {
+    text-decoration: none;
+    background-color: #ab001e;
+    color: #fff
+}
+.imacBanner-buttonIcon {
+    -webkit-text-stroke: 1px #fff;
+    color: #fff;
+    float: right;
+    margin-top: 3px
+}
+.imacBanner-line {
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+    background-color: #fff;
+    display: block;
+    height: 45rem;
+    position: absolute;
+    width: 3px
+}
+.imacBanner-line.left-top {
+    left: -3px;
+    top: -2px;
+    -webkit-transform-origin: 1px 0;
+    transform-origin: 1px 0
+}
+.imacBanner-line.left-bottom {
+    left: -2px;
+    top: 100%;
+    -webkit-transform-origin: 1px 0;
+    transform-origin: 1px 0
+}
+.imacBanner-line.right-bottom {
+    left: 100%;
+    top: 100%;
+    -webkit-transform-origin: -1px 2px;
+    transform-origin: -1px 2px
+}
+@media only screen and (max-width:991px) {
+    .imacBanner {
+        height: 250px;
+        padding: 50px 0
+    }
+    .imacBanner-container {
+        padding: 0 35px
+    }
+    .imacBanner-withCta {
+        height: 300px
+    }
+    .imacBanner-button {
+        font-size: 1.2rem
+    }
+}
+@media only screen and (max-width:767px) {
+    .imacBanner {
+        background-blend-mode: color;
+        background-color: #000;
+        background-image: none;
+        height: 270px;
+        padding: 50px 15px
+    }
+    .imacBanner-withCta {
+        height: 330px
+    }
+    .imacBanner-button {
+        margin-left: 20px;
+        width: 70%
+    }
+}
+
+/*
+
+End Header styles
+
+*/
