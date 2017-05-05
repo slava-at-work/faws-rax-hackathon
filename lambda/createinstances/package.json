@@ -1,0 +1,17 @@
+{
+  "name": "createinstances",
+  "version": "1.0.0",
+  "description": "create instances lambda function",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Rackspace",
+    "Hackathon",
+    "Team",
+    "3"
+  ],
+  "author": "gjoel@amazon.com",
+  "license": "ISC"
+}
