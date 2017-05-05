@@ -15,19 +15,21 @@
 	},
 	"Resources": {
 		"CreateServerAlarm": {
-			"Type": "AWS::CloudWatch::Alarm",
+			"DependsOn": "",
+			"Type": "AWS::Events::Rule",
 			"Properties": {
-				"AlarmDescription": "Alarm for creating server",
-				"AlarmActions": [],
-				"MetricName": "Errors",
-				"Namespace": "AWS/Lambda",
-				"ComparisonOperator": "GreaterThanOrEqualToThreshold",
-				"EvaluationPeriods": "2",
-				"Period": "1800",
-				"Statistic": "Sum",
-				"Threshold": "2",
-				"Dimensions": []
-			}
+				"Description": String,
+				"Name": String,
+				"RoleArn": String,
+				"ScheduleExpression": String,
+				"State": String,
+				"Targets": ["Arn": {
+					"Fn::GetAtt": ["LambdaFunction",
+					"Arn"]
+				},
+				"Id": "Version1",
+				"Input": ""
+			}]
 		},
 		"CreateLambdaFunction": {
 			"Type": "AWS::Lambda::Function",
