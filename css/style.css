@@ -4,6 +4,14 @@ Bootstrap overrides
 
 */
 
+@media (max-width: 990px) {
+	
+	.row {
+		margin: 0;
+	}
+
+}
+
 .navbar {
 	background-color: #333;
 }
@@ -33,6 +41,33 @@ Bootstrap overrides
 	}
 
 }
+
+@media (max-width: 990px) {
+    
+    .form-horizontal .control-label {
+        text-align: left;
+        margin-bottom: 5px;
+    }
+
+}
+
+.main-con-area {
+	max-width: 1024px;
+	margin: 0 auto;
+	position: relative;
+	padding-top: 20px !important;
+	padding-bottom: 20px !important;
+}
+
+/*
+@media (max-width: 1024px) {
+    
+    .main-con-area {
+        
+    }
+
+}
+*/
 
 /*
 
@@ -76,19 +111,24 @@ Header styles
 .imacBanner-container:after {
     clear: both
 }
+@media (min-width:460px) {
+    .imacBanner-container {
+        width: 400px
+    }
+}
 @media (min-width:768px) {
     .imacBanner-container {
-        width: 770px
+        width: 700px
     }
 }
 @media (min-width:992px) {
     .imacBanner-container {
-        width: 990px
+        width: 900px
     }
 }
 @media (min-width:1280px) {
     .imacBanner-container {
-        width: 1280px
+        width: 1200px
     }
 }
 .imacBanner-headlineLarge,
@@ -123,7 +163,7 @@ Header styles
     font-weight: 700;
     line-height: .9em;
     margin: 0;
-    text-transform: uppercase
+    text-transform: uppercase;
     font-size: 30px;
 }
 @media (max-width: 400px) {
